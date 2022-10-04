@@ -55,6 +55,13 @@ Como podemos ver existem várias aplicações para diferentes usos, mas nenhuma 
 ---
 
 ## Enquadramento nas diversas Unidades Curriculares
+Sendo este um projeto multidisciplinar, arranjámos maneira de incluir todas as cadeiras na idealização da nossa aplicação:
+
+  * **Bases de Dados** - Utilizaremos bases de dados para armanezamento, busca e manipulação de informação sobre os utilizadores, as suas preferências, monumentos e outros dados pertinentesn que requerem permanência;
+  * **Programação Orientada a Objetos** - Vamos utilizar uma backend RESTful API feita numa línguagem maioritáriamente orientada a objetos (java), com o objetivo de servir de centro de controlo. Este servidor servirá como intermediário entre a aplicação móvel (frontend) e a base de dados e será também a aplicação que vai receber os pedidos e enviar as respostas adequadas;
+  * **Programação de Dispositivos Móveis** - Será feita uma aplicação móvel que funcionará como a frontend do projeto. O utilizador usará esta app para interagir com os recursos disponibilizados pela backend, base de dados e outros serviços. A nossa aplicação terá um GUI através do qual os utilizadores poderão fazer esta interação.
+  * **Competências Comunicacionais** - Iremos utilizar as competências aprendidas em aula de modo a melhorarmos as nossas apresentações orais de entrega a entrega;
+  * **Matemática Discreta** - Para manipulação e reconhecimento de imagens usaremos algorítmos e estratégias que se enquadram na cadeira de matemática discreta, como por exemplo `Algorítmo de Dijkstra` para computação de caminhos, `TM_SQDIFF` ou `TM_CCOEFF` para template matching, entre outros.
 
 ---
 
@@ -67,6 +74,15 @@ Como podemos ver existem várias aplicações para diferentes usos, mas nenhuma 
 ---
 
 ## Tecnologias a utilizar
+
+Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremos utilizar também:
+  * [Spring Boot](https://spring.io/projects/spring-boot) - Para RESTFul backend api
+  * [PostgreSQL](https://www.postgresql.org/) - Para base de dados
+  * [OpenCV](https://www.postgresql.org/) - Biblioteca de funções auxiliares a reconhecimento de imagem
+  * [Docker](https://www.docker.com/) - Ferramenta para organização, deployment e monitorização da aplicação
+  * ~~[Redis](https://redis.io/) - Cache server para base de dados~~
+  * ~~[Some cloud thing...]()~~
+  * ~~[Tensorflow](https://www.tensorflow.org) -  Biblioteca de funções para machine learning~~
 
 ---
 
