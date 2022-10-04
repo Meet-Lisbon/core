@@ -40,7 +40,8 @@ Encontrámos várias aplicações e vamos falar um pouco das suas característic
   * **Citymapper** - nesta aplicação não só encontra informação sobre todos os transportes disponíveis em Lisboa, como também lhe são fornecidos os melhores trajetos para o seu destino;
   * **Fever** - centenas de sugestões à espera das mais diversas áreas, como cinema e teatro, restaurantes, festas ou programas de bem-estar;
   * **Lisbon Street Art** - dá a conhecer (quase) toda a street art da capital e arredores;
-  * **Lisbon Travel Guide** - pode planear percursos, de acordo com os mapas que são disponibilizados;
+  * **Lisbon Travel Guide** - pode planear percursos, de acordo com os mapas que são disponibilizados;  
+  
 Como podemos ver existem várias aplicações para diferentes usos, mas nenhuma que consiga reconhecer um ponto turístico a partir da câmara e contar um pouco sobre a sua história, e é por essa razão que achamos o nosso projeto útil e interessante.
 
 ## Guiões de teste
