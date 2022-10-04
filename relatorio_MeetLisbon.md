@@ -7,11 +7,12 @@
 * ✅ [Objetivos](#objetivos)
 * ✅ [Pesquisa](#pesquisa)
 * ✅ [Benchmarking de mercado](#benchmarking-de-mercado)
-* ❌  [Guiões de teste](#guiões-de-teste)
-* ❌  [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
-* ❌  [Arquitetura da Solução](arquitetura-da-solução)
+* ❌ [Guiões de teste](#guiões-de-teste)
+* ❌ [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
+* ❌ [Arquitetura da Solução](arquitetura-da-solução)
 * ✅ [Tecnologias a utilizar](tecnologias-a-utilizar)
-* ❌  [Referências Bibliográficas](referências-bibliográficas)
+* ❌ [Gráfico de Gantt](gráfico-de-gantt)
+* ❌ [Referências Bibliográficas](referências-bibliográficas)
 * ✅ [License](#license)
 
 ## Introdução
@@ -80,6 +81,10 @@ Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremo
   * ~~[Redis](https://redis.io/) - Cache server para base de dados~~
   * ~~[Some cloud thing...]()~~
   * ~~[Tensorflow](https://www.tensorflow.org) -  Biblioteca de funções para machine learning~~
+
+---
+
+## Gráfico de Gantt
 
 ---
 
