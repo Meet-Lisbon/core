@@ -9,10 +9,10 @@
 * ✅ [Benchmarking de mercado](#benchmarking-de-mercado)
 * ❌ [Guiões de teste](#guiões-de-teste)
 * ❌ [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
-* ❌ [Arquitetura da Solução](arquitetura-da-solução)
-* ✅ [Tecnologias a utilizar](tecnologias-a-utilizar)
-* ❌ [Gráfico de Gantt](gráfico-de-gantt)
-* ❌ [Referências Bibliográficas](referências-bibliográficas)
+* ❌ [Arquitetura da Solução](#arquitetura-da-solução)
+* ✅ [Tecnologias a utilizar](#tecnologias-a-utilizar)
+* ❌ [Gráfico de Gantt](#gráfico-de-gantt)
+* ❌ [Referências Bibliográficas](#referências-bibliográficas)
 * ✅ [License](#license)
 
 ## Introdução
