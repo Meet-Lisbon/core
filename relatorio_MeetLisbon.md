@@ -3,17 +3,17 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Introdução](#introdução)  
-* [Objetivos](#objetivos)
-* [Pesquisa](#pesquisa)
-* [Benchmarking de mercado](#benchmarking-de-mercado)
-* [Guiões de teste](#guiões-de-teste)
-* [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
+* ✅ [Introdução](#introdução) 
+* ✅ [Objetivos](#objetivos)
+* ✅ [Pesquisa](#pesquisa)
+* ✅ [Benchmarking de mercado](#benchmarking-de-mercado)
+* ❌  [Guiões de teste](#guiões-de-teste)
+* ❌  [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
   * [Solução específica a implementar](solução-específica-a-implementar)
-* [Arquitetura da Solução](arquitetura-da-solução)
-* [Tecnologias a utilizar](tecnologias-a-utilizar)
-* [Referências Bibliográficas](referências-bibliográficas)
-* [License](#license)
+* ❌  [Arquitetura da Solução](arquitetura-da-solução)
+* ✅ [Tecnologias a utilizar](tecnologias-a-utilizar)
+* ❌  [Referências Bibliográficas](referências-bibliográficas)
+* ✅ [License](#license)
 
 ## Introdução
 De modo a criar uma aplicação divertida e útil pensámos numa aplicação que pudesse vir a ajudar os turistas a conhecer a nossa cidade, Lisboa. A nossa aplicação tem então como público-alvo os turistas, podendo, no entanto, servir também para portugueses à procura de conhecer melhor o seu próprio pais.
