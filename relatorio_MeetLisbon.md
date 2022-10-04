@@ -9,7 +9,6 @@
 * ✅ [Benchmarking de mercado](#benchmarking-de-mercado)
 * ❌  [Guiões de teste](#guiões-de-teste)
 * ❌  [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
-  * [Solução específica a implementar](solução-específica-a-implementar)
 * ❌  [Arquitetura da Solução](arquitetura-da-solução)
 * ✅ [Tecnologias a utilizar](tecnologias-a-utilizar)
 * ❌  [Referências Bibliográficas](referências-bibliográficas)
@@ -49,8 +48,6 @@ Como podemos ver existem várias aplicações para diferentes usos, mas nenhuma 
 ---
 
 ## Descrição genérica da solução a implementar
-
-### Solução específica a implementar
 
 ---
 
