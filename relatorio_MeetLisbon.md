@@ -80,6 +80,36 @@ Sendo este um projeto multidisciplinar, arranjámos maneira de incluir todas as 
 ---
 
 ## Arquitetura da Solução
+A nossa aplicação, embora pequena, requer uma coordenação entre vários equipamentos e tecnologias, assim como uma infraestrutura sólida e de fácil manutenção. Os diversos componentes a integrar são:  
+  * Base de dados  
+  * Backend API  
+  * Aplicação Android
+
+A base de dados e backend API têm de garantir uma disponibilidade alta, assim como uma latência baixa, visto que a interação com o útilizador é baseada na sua localização e movimentação em tempo real. Por outro lado, no ínicio poderá ser mais vantajoso dar prioridade à simplicidade e organização dado que as necessidades iniciais serão baixas. Para tal, optamos por uma infra-estrutura de single cluster com load balancing. A orquestração das diversas componentes da backend api e base de dados será feita pelo Kubernetes, como demonstrado na Fig. 1.  
+| ![Diagrama kubernetes](images/k8s.png) | 
+|:--:| 
+| *Fig. 1* - Diagrama de rede |
+
+A base de dados e a backend api correm em containers individuaís dentro de pods. Estes pods correm indefinidamente em worker nodes. Os pods comunicam com a rede externa através do `kube-proxy`. A manutenção, monitorização e orquestração são organizadas pelo `control plane`. A `kubelet` presente em todos os pods tem como objetivo comunicar com o `control plane`.
+
+### Armazenamento permanente
+Utilizaremos uma base de dados, PostreSQL. Este servidor não terá comunicação com o exterior, interagindo apenas com o backend. Desta forma aumenta-se a segurança da nossa aplicação, reduzindo os vetores de ataque expostos.
+
+### Backend API
+O servidor backend será feito utilizando Spring Boot numa arquitetura REST. Esta servirá para receber requests da frontend, processá-los e devolver uma resposta. A comunicação com a base de dados e eventualmente com outros recursos internos (ou, possívelmente, externos) será feita pela backend quando necessária. 
+
+### Load balancer
+Os utilizadores (na verdade, a frontend) não comunica diretamente com os worker nodes do nosso cluster. Para garantir uma boa disponibilidade e rapidez geral, o load balancer é responsável por encaminhas os pedidos para os nodes que fazem mais sentido, tendo em conta dados como a proximidade ao utilizador e a carga atual sobre os servidores.  
+
+### Aplicação Android
+Esta aplicação terá a função de frontend. O seu objetivo será possibilitar uma interação com os utilizadores através da sua interface grafica e a comunicação com a backend, intermediando o utilizador e os recursos internos.
+ 
+### Integração e distribuição
+Para limitar o número de erros humanos é vantajoso automatizar a maior parte dos espaços, especialmente aqueles mais extensos e que se repetem. Planeamos então utilizar Github Actions e, possívelmente, algumas plataformas como `Jenkins` para facilitar estas tarefas. Assim, a ideia geral da pipeline para integração e distribuição contínuas está representada na Fig. 2.
+
+| ![space-1.jpg](images/k8s.png) | 
+|:-:| 
+| *Fig. 2* - CI/CD pipeline |
 
 ---
 
