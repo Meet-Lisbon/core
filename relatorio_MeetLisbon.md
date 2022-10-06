@@ -13,7 +13,8 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 * 🟢 [Benchmarking de mercado](#benchmarking-de-mercado)
 * 🟢 [Guiões de teste](#guiões-de-teste)
 * 🔴 [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
-* 🔴 [Arquitetura da Solução](#arquitetura-da-solução)
+* 🟢 [Arquitetura da Solução](#arquitetura-da-solução)
+* 🔴 [Modelo de Domínio](#modelo-de-domínio)
 * 🟢 [Tecnologias a utilizar](#tecnologias-a-utilizar)
 * 🔴 [Gráfico de Gantt](#gráfico-de-gantt)
 * 🟢 [Referências Bibliográficas](#referências-bibliográficas)
@@ -110,6 +111,11 @@ Para limitar o número de erros humanos é vantajoso automatizar a maior parte d
 | ![space-1.jpg](images/k8s.png) | 
 |:-:| 
 | *Fig. 2* - CI/CD pipeline |
+
+--- 
+
+## Modelo de Domínio
+
 
 ---
 
