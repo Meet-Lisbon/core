@@ -97,7 +97,6 @@ Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremo
 ---
 
 ## Referências Bibliográficas
-
 <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
   <div class="csl-entry">Costa, J. S. L. (n.d.). <i>A Procura Turística em Portugal: Evolução Recente</i>. 85.</div>
   <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=A%20Procura%20Tur%C3%ADstica%20em%20Portugal%3A%20Evolu%C3%A7%C3%A3o%20Recente&amp;rft.aufirst=Joana%20Sim%C3%B5es%20Le%C3%A3o&amp;rft.aulast=Costa&amp;rft.au=Joana%20Sim%C3%B5es%20Le%C3%A3o%20Costa&amp;rft.pages=85&amp;rft.language=pt"></span>
@@ -108,6 +107,7 @@ Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremo
   <div class="csl-entry">Rodrigues, N. (2019, March 7). <i>As melhores apps para descobrir Lisboa</i>. Lisboa Secreta. <a href="https://lisboasecreta.co/as-melhores-apps-para-descobrir-lisboa/">https://lisboasecreta.co/as-melhores-apps-para-descobrir-lisboa/</a></div>
   <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=As%20melhores%20apps%20para%20descobrir%20Lisboa&amp;rft.description=N%C3%A3o%2C%20n%C3%A3o%20%C3%A9%20preciso%20andar%20por%20Lisboa%20com%20um%20daqueles%20mapas%20que%20se%20dobram%20em%2010.%20Nem%20tens%20de%20ligar%20aos%20amigos%2C%20%C3%A0s%20duas%20da%20manh%C3%A3%2C%20a%20perguntar%20onde%20param%20as&amp;rft.identifier=https%3A%2F%2Flisboasecreta.co%2Fas-melhores-apps-para-descobrir-lisboa%2F&amp;rft.aufirst=Nelson&amp;rft.aulast=Rodrigues&amp;rft.au=Nelson%20Rodrigues&amp;rft.date=2019-03-07&amp;rft.language=pt-PT"></span>
   <div class="csl-entry">T: +351 210 312 700, F: +351 210 312 899, Atl@visitlisboa.com, &amp; Www.visitlisboa.com. (n.d.). <i>Informação Útil</i>. Turismo de Lisboa. Retrieved October 6, 2022, from <a href="https://www.visitlisboa.com/pt-pt/p/informacao-util">https://www.visitlisboa.com/pt-pt/p/informacao-util</a></div>
+
 ---
 
 ## License
