@@ -1,5 +1,9 @@
 # Relatório
 
+![Header](images/IADE.png)
+
+Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (20210387)
+
 <!-- TABLE OF CONTENTS -->
 ## Índice
 
