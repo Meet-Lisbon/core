@@ -1,19 +1,19 @@
 # Relatório
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+## Índice
 
-* ✅ [Introdução](#introdução) 
-* ✅ [Objetivos](#objetivos)
-* ✅ [Pesquisa](#pesquisa)
-* ✅ [Benchmarking de mercado](#benchmarking-de-mercado)
-* ❌ [Guiões de teste](#guiões-de-teste)
-* ❌ [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
-* ❌ [Arquitetura da Solução](#arquitetura-da-solução)
-* ✅ [Tecnologias a utilizar](#tecnologias-a-utilizar)
-* ❌ [Gráfico de Gantt](#gráfico-de-gantt)
-* ❌ [Referências Bibliográficas](#referências-bibliográficas)
-* ✅ [License](#license)
+* 🟢 [Introdução](#introdução) 
+* 🟢 [Objetivos](#objetivos)
+* 🟡 [Pesquisa](#pesquisa)
+* 🟢 [Benchmarking de mercado](#benchmarking-de-mercado)
+* 🔴 [Guiões de teste](#guiões-de-teste)
+* 🔴 [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
+* 🔴 [Arquitetura da Solução](#arquitetura-da-solução)
+* 🟢 [Tecnologias a utilizar](#tecnologias-a-utilizar)
+* 🔴 [Gráfico de Gantt](#gráfico-de-gantt)
+* 🔴 [Referências Bibliográficas](#referências-bibliográficas)
+* 🟢 [License](#license)
 
 ## Introdução
 De modo a criar uma aplicação divertida e útil pensámos numa aplicação que pudesse vir a ajudar os turistas a conhecer a nossa cidade, Lisboa. A nossa aplicação tem então como público-alvo os turistas, podendo, no entanto, servir também para portugueses à procura de conhecer melhor o seu próprio pais.
@@ -31,6 +31,8 @@ Um dos nossos objetivos é também facilitar o fluxo de informação podendo uti
 ## Pesquisa
 Para podermos construir uma aplicação o mais fidedigna possível fizemos várias pesquisas sobre a área do turismo. Entre estas pesquisas verificámos o crescimento do turismo em Portugal para podermos ter a certeza que esta aplicação seria de facto utilizada e não apenas mais uma aplicação sem grande uso na App Store.
 
+<!-- Incluir grafico de crescimento -->
+
 ---
 
 ## Benchmarking de mercado
@@ -46,9 +48,11 @@ Como podemos ver existem várias aplicações para diferentes usos, mas nenhuma 
 
 ## Guiões de teste
 
+
 ---
 
 ## Descrição genérica da solução a implementar
+
 
 ---
 
