@@ -62,20 +62,20 @@ Como descrevemos na introdução, a nossa aplicação passa por ajudar os turist
 # Enquadramento nas diversas Unidades Curriculares
 Sendo este um projeto multidisciplinar, arranjámos maneira de incluir todas as cadeiras na idealização da nossa aplicação:
 
-  * **Bases de Dados** - Utilizaremos bases de dados para armanezamento, busca e manipulação de informação sobre os utilizadores, as suas preferências, monumentos e outros dados pertinentesn que requerem permanência;
-  * **Programação Orientada a Objetos** - Vamos utilizar uma backend RESTful API feita numa línguagem maioritáriamente orientada a objetos (java), com o objetivo de servir de centro de controlo. Este servidor servirá como intermediário entre a aplicação móvel (frontend) e a base de dados e será também a aplicação que vai receber os pedidos e enviar as respostas adequadas;
+  * **Bases de Dados** - Utilizaremos bases de dados para armazenamento, busca e manipulação de informação sobre os utilizadores, as suas preferências, monumentos e outros dados pertinentes que requerem permanência;
+  * **Programação Orientada a Objetos** - Vamos utilizar uma backend RESTful API feita numa linguagem maioritariamente orientada a objetos (java), com o objetivo de servir de centro de controlo. Este servidor servirá como intermediário entre a aplicação móvel (frontend) e a base de dados e será também a aplicação que vai receber os pedidos e enviar as respostas adequadas;
   * **Programação de Dispositivos Móveis** - Será feita uma aplicação móvel que funcionará como a frontend do projeto. O utilizador usará esta app para interagir com os recursos disponibilizados pela backend, base de dados e outros serviços. A nossa aplicação terá um GUI através do qual os utilizadores poderão fazer esta interação.
   * **Competências Comunicacionais** - Iremos utilizar as competências aprendidas em aula de modo a melhorarmos as nossas apresentações orais de entrega a entrega;
-  * **Matemática Discreta** - Para manipulação e reconhecimento de imagens usaremos algorítmos e estratégias que se enquadram na cadeira de matemática discreta, como por exemplo `Algorítmo de Dijkstra` para computação de caminhos, `TM_SQDIFF` ou `TM_CCOEFF` para template matching, entre outros.
+  * **Matemática Discreta** - Para manipulação e reconhecimento de imagens usaremos algoritmos e estratégias que se enquadram na cadeira de matemática discreta, como por exemplo `Algoritmo de Dijkstra` para computação de caminhos, `TM_SQDIFF` ou `TM_CCOEFF` para template matching, entre outros.
 
 # Requisitos Técnicos para desenvolvimento do projeto
 Para o desenvolvimento deste projeto, será necessária a aprendizagem e utilização de várias línguagens de programação e outras plataformas:
-  * **Linguagem Java** - Para desenvolvimento em Spring Boot da backend API e da aplicação Android
-  * **Linguagem SQL** - Para uso e configuração da base de dados
-  * Programação móvel
-  * Orquestração e coordenação de containers para criação do cluster.
-  * Automatização de testes e integração/distribuição contínuas.
-  * Funcionamento e programação de algorítmos para análise de imagens - trabalhar com a biblioteca OpenCV.
+  * **Linguagem Java** -> Para desenvolvimento em Spring Boot da backend API e da aplicação Android;
+  * **Linguagem SQL** -> Para uso e configuração da base de dados;
+  * Programação móvel;
+  * Orquestração e coordenação de containers para criação do cluster;
+  * Automatização de testes e integração/distribuição contínuas;
+  * Funcionamento e programação de algoritmos para análise de imagens -> trabalhar com a biblioteca OpenCV;
 
 # Arquitetura da Solução
 A nossa aplicação, embora pequena, requer uma coordenação entre vários equipamentos e tecnologias, assim como uma infraestrutura sólida e de fácil manutenção. Os diversos componentes a integrar são:  
@@ -83,12 +83,12 @@ A nossa aplicação, embora pequena, requer uma coordenação entre vários equi
   * Backend API  
   * Aplicação Android
 
-A base de dados e backend API têm de garantir uma disponibilidade alta, assim como uma latência baixa, visto que a interação com o útilizador é baseada na sua localização e movimentação em tempo real. Por outro lado, no ínicio poderá ser mais vantajoso dar prioridade à simplicidade e organização dado que as necessidades iniciais serão baixas. Para tal, optamos por uma infra-estrutura de single cluster com load balancing. A orquestração das diversas componentes da backend api e base de dados será feita pelo Kubernetes, como demonstrado na Fig. 2.  
+A base de dados e backend API têm de garantir uma disponibilidade alta, assim como uma latência baixa, visto que a interação com o utilizador é baseada na sua localização e movimentação em tempo real. Por outro lado, no inicio poderá ser mais vantajoso dar prioridade à simplicidade e organização dado que as necessidades iniciais serão baixas. Para tal, optamos por uma infraestrutura de single cluster com load balancing. A orquestração das diversas componentes da backend api e base de dados será feita pelo Kubernetes, como demonstrado na Fig. 2.  
 | ![Diagrama kubernetes](images/k8s.png) | 
 |:--:| 
 | *Fig. 2* - Diagrama de rede |
 
-A base de dados e a backend api correm em containers individuaís dentro de pods. Estes pods correm indefinidamente em worker nodes. Estes comunicam com a rede externa através do `kube-proxy`. A manutenção, monitorização e orquestração são organizadas pelo `control plane`. A `kubelet`, presente em todos os pods, tem como objetivo comunicar com o `control plane`. O plano é utilizar Google Kubernetes Engine (GKE) para gerir o cluster.
+A base de dados e a backend api correm em containers individuais dentro de pods. Estes pods correm indefinidamente em worker nodes. Estes comunicam com a rede externa através do `kube-proxy`. A manutenção, monitorização e orquestração são organizadas pelo `control plane`. A `kubelet`, presente em todos os pods, tem como objetivo comunicar com o `control plane`. O plano é utilizar Google Kubernetes Engine (GKE) para gerir o cluster.
 
 ## Armazenamento permanente
 Utilizaremos uma base de dados, PostreSQL. Este servidor não terá comunicação com o exterior, interagindo apenas com a backend. Desta forma aumenta-se a segurança da nossa aplicação, reduzindo os vetores de ataque expostos.
@@ -117,7 +117,7 @@ Para limitar o número de erros humanos é vantajoso automatizar a maior parte d
 
 # Tecnologias a utilizar
 
-Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremos utilizar também:
+Fora as tecnologias descritas no enquadramento das Unidades Curriculares, iremos utilizar também:
   * [Spring Boot](https://spring.io/projects/spring-boot) - Para RESTFul backend api
   * [PostgreSQL](https://www.postgresql.org/) - Para a base de dados
   * [OpenCV](https://www.postgresql.org/) - Biblioteca de funções auxiliares a reconhecimento de imagem
