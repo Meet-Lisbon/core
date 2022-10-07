@@ -7,19 +7,19 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 <!-- TABLE OF CONTENTS -->
 # Índice
 
-*  [Introdução](#introdução)
-*  [Objetivos](#objetivos)
-*  [Pesquisa](#pesquisa)
-*  [Benchmarking de mercado](#benchmarking-de-mercado)
-*  [Guiões de teste](#guiões-de-teste)
-*  [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
-*  [Requisitos Técnicos para desenvolvimento do projeto](#requisitos-técnicos-para-desenvolvimento-do-projeto)
-*  [Arquitetura da Solução](#arquitetura-da-solução)
-*  [Modelo de Domínio](#modelo-de-domínio)
-*  [Tecnologias a utilizar](#tecnologias-a-utilizar)
-*  [Gráfico de Gantt](#gráfico-de-gantt)
-*  [Referências Bibliográficas](#referências-bibliográficas)
-*  [License](#license)
+* [Introdução](#introdução)
+* [Objetivos](#objetivos)
+* [Pesquisa](#pesquisa)
+* [Benchmarking de mercado](#benchmarking-de-mercado)
+* [Guiões de teste](#guiões-de-teste)
+* [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
+* [Requisitos Técnicos para desenvolvimento do projeto](#requisitos-técnicos-para-desenvolvimento-do-projeto)
+* [Arquitetura da Solução](#arquitetura-da-solução)
+* [Modelo de Domínio](#modelo-de-domínio)
+* [Tecnologias a utilizar](#tecnologias-a-utilizar)
+* [Gráfico de Gantt](#gráfico-de-gantt)
+* [Referências Bibliográficas](#referências-bibliográficas)
+* [License](#license)
 
 # Introdução
 De modo a criar uma aplicação divertida e útil pensámos numa aplicação que pudesse vir a ajudar os turistas a conhecer a nossa cidade, Lisboa. A nossa aplicação tem então como público-alvo os turistas, podendo, no entanto, servir também para portugueses à procura de conhecer melhor o seu próprio pais.
