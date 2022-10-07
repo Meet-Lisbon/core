@@ -12,11 +12,12 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 * 🟢 [Pesquisa](#pesquisa)
 * 🟢 [Benchmarking de mercado](#benchmarking-de-mercado)
 * 🟢 [Guiões de teste](#guiões-de-teste)
-* 🔴 [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
+* 🟢 [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
+* 🟡 [Requisitos Técnicos para desenvolvimento do projeto](#requisitos-técnicos-para-desenvolvimento-do-projeto)
 * 🟢 [Arquitetura da Solução](#arquitetura-da-solução)
 * 🔴 [Modelo de Domínio](#modelo-de-domínio)
 * 🟢 [Tecnologias a utilizar](#tecnologias-a-utilizar)
-* 🔴 [Gráfico de Gantt](#gráfico-de-gantt)
+* 🟡 [Gráfico de Gantt](#gráfico-de-gantt)
 * 🟢 [Referências Bibliográficas](#referências-bibliográficas)
 * 🟢 [License](#license)
 
@@ -55,7 +56,7 @@ Guião 2 (utilização diferente do *core* do projeto) - Um português que vive 
 Guião 3 (utilização diferente do *core* do projeto) - Durante a sua viagem a Lisboa, um turista abre a aplicação "Meet Lisbon" de modo a ver quais os sítios que já visitou e quais os sítios que falta visitar, para isso carrega no ícone com um coração para poder ver a *wishlist* que fez em casa com todos os pontos de interesse.
 
 # Descrição genérica da solução a implementar
-
+Como descrevemos na introdução, a nossa aplicação passa por ajudar os turistas a conhecer melhor a capital portuguesa. Este projeto inclui vários aspectos como o uso da câmara fotográfica de modo a poder haver um reconhecimento do ponto turistico por parte do software, irá incluir localização geográfica pois teremos um mapa virtual com os todos os pontos turísticos para os utilizadores poderem adicionar à *wishlist* e criar uma rota de viagem, entre outros aspectos.
 
 
 # Enquadramento nas diversas Unidades Curriculares
@@ -68,7 +69,13 @@ Sendo este um projeto multidisciplinar, arranjámos maneira de incluir todas as 
   * **Matemática Discreta** - Para manipulação e reconhecimento de imagens usaremos algorítmos e estratégias que se enquadram na cadeira de matemática discreta, como por exemplo `Algorítmo de Dijkstra` para computação de caminhos, `TM_SQDIFF` ou `TM_CCOEFF` para template matching, entre outros.
 
 # Requisitos Técnicos para desenvolvimento do projeto
-
+Para o desenvolvimento deste projeto, será necessária a aprendizagem e utilização de várias línguagens de programação e outras plataformas:
+  * **Linguagem Java** - Para desenvolvimento em Spring Boot da backend API e da aplicação Android
+  * **Linguagem SQL** - Para uso e configuração da base de dados
+  * Programação móvel
+  * Orquestração e coordenação de containers para criação do cluster.
+  * Automatização de testes e integração/distribuição contínuas.
+  * Funcionamento e programação de algorítmos para análise de imagens - trabalhar com a biblioteca OpenCV.
 
 # Arquitetura da Solução
 A nossa aplicação, embora pequena, requer uma coordenação entre vários equipamentos e tecnologias, assim como uma infraestrutura sólida e de fácil manutenção. Os diversos componentes a integrar são:  
@@ -119,7 +126,22 @@ Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremo
 
 
 # Gráfico de Gantt
-
+  * Base de dados
+    * Definir a estrutura
+    * Popular a base de dados
+    * Integração com backend
+    * Testes e automatização de backups
+  * Backend
+    * Definir a estrutura da API
+    * Criar endpoints
+    * Criar testes
+    * Integração/distribuição contínua
+  * App
+    * Definir desenho da interface gráfica
+    * Desenho da interface gráfica
+    * Implementação das diversas features
+    * Criação de testes
+    * Integração/distribuição contínua
 
 # Referências Bibliográficas
 <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
