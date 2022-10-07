@@ -123,26 +123,12 @@ Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremo
   * [Jenkins](https://www.jenkins.io/) - Servidor de automatização para integração e distribuição contínuas 
 
 # Gráfico de Gantt
-  * Base de dados
-    * Definir a estrutura (a) -> 2
-    * Popular a base de dados(b) -> 2
-    * Integração com backend (c) -> 2
-    * Testes e automatização de backups (a) -> 2
-  * Backend
-    * Definir a estrutura da API (b) -> 2
-    * Criar /health endpoint (b) -> 2
-    * Integração com base de dados (c) -> 2 
-    * Criar os outros endpoints (c) -> 3
-    * Criar testes (a) -> 3
-    * Integração/distribuição contínua (b) -> 3
-  * App
-    * Definir desenho da interface gráfica (c) -> 2
-    * Desenho da interface gráfica (a) -> 2
-    * Integração com a backend API (a) -> 2
-    * Implementação das diversas features (b) -> 3
-    * Criação de testes (c) -> 3
-    * Integração/distribuição contínua (a) -> 3
-    * Definição do logótipo (a, b, c) -> 2
+
+| ![Calendarização - Gráfico de Gantt](images/gantt.png) | 
+|:-:| 
+| *Fig. 4* - Calendarização - Gráfico de Gantt |
+
+A calendarização está dividada em três, sendo a primeira parte referente à Base de Dados, a segunda referente à Backend e a última referente à app.
 
 # Referências Bibliográficas
 <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
