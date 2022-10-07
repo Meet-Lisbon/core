@@ -131,7 +131,7 @@ Fora as tecnologias descritas no enquadramento das Unidades Curriculares, iremos
 |:-:| 
 | *Fig. 5* - Calendarização - Gráfico de Gantt |
 
-A calendarização está dividada em três, sendo a primeira parte referente à Base de Dados, a segunda referente à Backend e a última referente à app.
+A calendarização está dividida em três, sendo a primeira parte referente à Base de Dados, a segunda referente à Backend e a última referente à app.
 
 # Referências Bibliográficas
 <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
