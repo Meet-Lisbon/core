@@ -111,6 +111,9 @@ Para limitar o número de erros humanos é vantajoso automatizar a maior parte d
   
 # Modelo de Domínio
 
+| ![Modelo de Domínio](images/uml.png) | 
+|:-:| 
+| *Fig. 4* - Modelo de Domínio |
 
 # Tecnologias a utilizar
 
@@ -126,7 +129,7 @@ Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremo
 
 | ![Calendarização - Gráfico de Gantt](images/gantt.png) | 
 |:-:| 
-| *Fig. 4* - Calendarização - Gráfico de Gantt |
+| *Fig. 5* - Calendarização - Gráfico de Gantt |
 
 A calendarização está dividada em três, sendo a primeira parte referente à Base de Dados, a segunda referente à Backend e a última referente à app.
 
