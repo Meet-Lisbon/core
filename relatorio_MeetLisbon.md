@@ -9,7 +9,7 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 
 * 🟢 [Introdução](#introdução) 
 * 🟢 [Objetivos](#objetivos)
-* 🟡 [Pesquisa](#pesquisa)
+* 🟢 [Pesquisa](#pesquisa)
 * 🟢 [Benchmarking de mercado](#benchmarking-de-mercado)
 * 🟢 [Guiões de teste](#guiões-de-teste)
 * 🔴 [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
@@ -32,9 +32,11 @@ Um dos nossos objetivos é também facilitar o fluxo de informação podendo uti
 
 
 # Pesquisa
-Para podermos construir uma aplicação o mais fidedigna possível fizemos várias pesquisas sobre a área do turismo. Entre estas pesquisas verificámos o crescimento do turismo em Portugal para podermos ter a certeza que esta aplicação seria de facto utilizada e não apenas mais uma aplicação sem grande uso na App Store.
+Para podermos construir uma aplicação o mais fidedigna possível fizemos várias pesquisas sobre a área do turismo. Entre estas pesquisas verificámos o crescimento do turismo em Portugal para podermos ter a certeza que esta aplicação seria de facto utilizada e não apenas mais uma aplicação sem grande uso na App Store. No gráfico da Fig. 1 verifica-se um padrão de crescimento ao longo dos anos, tendo descido naturalmente em 2020 e esperando atingir os valores mais altos até hoje em 2023.
 
-<!-- Incluir grafico de crescimento -->
+| ![Crescimento do turismo](images/tourism.png) | 
+|:-:| 
+| *Fig. 1* - Lucro de turismo por ano em milhões de euros |
 
 
 # Benchmarking de mercado
@@ -79,10 +81,10 @@ A nossa aplicação, embora pequena, requer uma coordenação entre vários equi
   * Backend API  
   * Aplicação Android
 
-A base de dados e backend API têm de garantir uma disponibilidade alta, assim como uma latência baixa, visto que a interação com o útilizador é baseada na sua localização e movimentação em tempo real. Por outro lado, no ínicio poderá ser mais vantajoso dar prioridade à simplicidade e organização dado que as necessidades iniciais serão baixas. Para tal, optamos por uma infra-estrutura de single cluster com load balancing. A orquestração das diversas componentes da backend api e base de dados será feita pelo Kubernetes, como demonstrado na Fig. 1.  
+A base de dados e backend API têm de garantir uma disponibilidade alta, assim como uma latência baixa, visto que a interação com o útilizador é baseada na sua localização e movimentação em tempo real. Por outro lado, no ínicio poderá ser mais vantajoso dar prioridade à simplicidade e organização dado que as necessidades iniciais serão baixas. Para tal, optamos por uma infra-estrutura de single cluster com load balancing. A orquestração das diversas componentes da backend api e base de dados será feita pelo Kubernetes, como demonstrado na Fig. 2.  
 | ![Diagrama kubernetes](images/k8s.png) | 
 |:--:| 
-| *Fig. 1* - Diagrama de rede |
+| *Fig. 2* - Diagrama de rede |
 
 A base de dados e a backend api correm em containers individuaís dentro de pods. Estes pods correm indefinidamente em worker nodes. Estes comunicam com a rede externa através do `kube-proxy`. A manutenção, monitorização e orquestração são organizadas pelo `control plane`. A `kubelet`, presente em todos os pods, tem como objetivo comunicar com o `control plane`. O plano é utilizar Google Kubernetes Engine (GKE) para gerir o cluster.
 
@@ -99,11 +101,11 @@ Os utilizadores (na verdade, a frontend) não comunica diretamente com os worker
 Esta aplicação terá a função de frontend. O seu objetivo será possibilitar uma interação com os utilizadores através da sua interface grafica e a comunicação com a backend, intermediando o utilizador e os recursos internos.
  
 ## Integração e distribuição
-Para limitar o número de erros humanos é vantajoso automatizar a maior parte dos espaços, especialmente aqueles mais extensos e que se repetem. Planeamos então utilizar Github Actions e, possívelmente, algumas plataformas como `Jenkins` para facilitar estas tarefas. Assim, a ideia geral da pipeline para integração e distribuição contínuas está representada na Fig. 2.
+Para limitar o número de erros humanos é vantajoso automatizar a maior parte dos espaços, especialmente aqueles mais extensos e que se repetem. Planeamos então utilizar Github Actions e, possívelmente, algumas plataformas como `Jenkins` para facilitar estas tarefas. Assim, a ideia geral da pipeline para integração e distribuição contínuas está representada na Fig. 3.
  
 | ![CI/CD Pipeline](images/pipeline.png) | 
 |:-:| 
-| *Fig. 2* - CI/CD pipeline |
+| *Fig. 3* - CI/CD pipeline |
  
 
 # Modelo de Domínio
