@@ -108,10 +108,8 @@ Para limitar o número de erros humanos é vantajoso automatizar a maior parte d
 | ![CI/CD Pipeline](images/pipeline.png) | 
 |:-:| 
 | *Fig. 3* - CI/CD pipeline |
- 
-
+  
 # Modelo de Domínio
-
 
 
 # Tecnologias a utilizar
@@ -124,24 +122,27 @@ Fora as tecnologias descritas no enquandramento das Unidades Curriculares, iremo
   * [Kubernetes](https://kubernetes.io/) - Criação, monitorização, orquestração e scaling do cluster 
   * [Jenkins](https://www.jenkins.io/) - Servidor de automatização para integração e distribuição contínuas 
 
-
 # Gráfico de Gantt
   * Base de dados
-    * Definir a estrutura
-    * Popular a base de dados
-    * Integração com backend
-    * Testes e automatização de backups
+    * Definir a estrutura (a) -> 2
+    * Popular a base de dados(b) -> 2
+    * Integração com backend (c) -> 2
+    * Testes e automatização de backups (a) -> 2
   * Backend
-    * Definir a estrutura da API
-    * Criar endpoints
-    * Criar testes
-    * Integração/distribuição contínua
+    * Definir a estrutura da API (b) -> 2
+    * Criar /health endpoint (b) -> 2
+    * Integração com base de dados (c) -> 2 
+    * Criar os outros endpoints (c) -> 3
+    * Criar testes (a) -> 3
+    * Integração/distribuição contínua (b) -> 3
   * App
-    * Definir desenho da interface gráfica
-    * Desenho da interface gráfica
-    * Implementação das diversas features
-    * Criação de testes
-    * Integração/distribuição contínua
+    * Definir desenho da interface gráfica (c) -> 2
+    * Desenho da interface gráfica (a) -> 2
+    * Integração com a backend API (a) -> 2
+    * Implementação das diversas features (b) -> 3
+    * Criação de testes (c) -> 3
+    * Integração/distribuição contínua (a) -> 3
+    * Definição do logótipo (a, b, c) -> 2
 
 # Referências Bibliográficas
 <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
