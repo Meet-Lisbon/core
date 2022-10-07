@@ -7,7 +7,7 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 <!-- TABLE OF CONTENTS -->
 ## Índice
 
-* 🟢 [Introdução](#introdução) 
+* 🟢 [Introdução](#introdução)
 * 🟢 [Objetivos](#objetivos)
 * 🟡 [Pesquisa](#pesquisa)
 * 🟢 [Benchmarking de mercado](#benchmarking-de-mercado)
