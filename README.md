@@ -35,7 +35,7 @@ Para podermos construir uma aplicação o mais fidedigna possível fizemos vári
 
 | ![Crescimento do turismo](images/tourism.png) | 
 |:-:| 
-| *Fig. 1* - Lucro de turismo por ano em milhões de euros |
+| *Fig. 1* - Lucro de turismo por ano em milhões de euros, em Portugal |
 
 # Benchmarking de mercado
 De modo a podermos diferenciar-nos de muitos outros, fizemos pesquisas sobre as aplicações já existentes neste mercado para perceber quais os aspetos que têm de ser melhorados nesta área aplicativa. 
