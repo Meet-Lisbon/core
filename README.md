@@ -18,6 +18,10 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 * [Modelo de Domínio](#modelo-de-domínio)
 * [Tecnologias a utilizar](#tecnologias-a-utilizar)
 * [Gráfico de Gantt](#gráfico-de-gantt)
+* [Diagrama de Classes](#diagrama-de-classes)
+* [Documentação REST](#documentação-rest)
+* [Dicionário de Dados](#dicionário-de-dados)
+* [Modelo Entidade-Relação](#modelo-entidade-relação)
 * [Referências Bibliográficas](#referências-bibliográficas)
 * [License](#license)
 
@@ -132,6 +136,26 @@ Fora as tecnologias descritas no enquadramento das Unidades Curriculares, iremos
 | *Fig. 5* - Calendarização - Gráfico de Gantt |
 
 A calendarização está dividida em três, sendo a primeira parte referente à Base de Dados, a segunda referente à Backend e a última referente à app.
+
+# Diagrama de Classes
+
+| ![Diagrama de Classes](images/DiagramaDeClasses.png) | 
+|:-:| 
+| *Fig. 6* - Diagrama de Classes |
+
+# Documentação REST
+
+# Dicionário de Dados
+
+| ![Dicionário de Dados](images/DicionárioDeDados.png) | 
+|:-:| 
+| *Fig. 7* - Dicionário de Dados |
+
+# Modelo Entidade-Relação
+
+| ![Modelo Entidade-Relação](images/modelação.png) | 
+|:-:| 
+| *Fig. 8* - Modelo Entidade-Relação |
 
 # Referências Bibliográficas
 <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
