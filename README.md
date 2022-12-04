@@ -145,6 +145,8 @@ A calendarização está dividida em três, sendo a primeira parte referente à 
 
 # Documentação REST
 
+Ver a documentação REST [aqui](https://github.com/Meet-Lisbon/documents/blob/main/G01-documentac%CC%A7a%CC%83o-REST.pdf).
+
 # Dicionário de Dados
 
 | ![Dicionário de Dados](images/DicionárioDeDados.png) | 
