@@ -18,12 +18,14 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 * [Modelo de Domínio](#modelo-de-domínio)
 * [Tecnologias a utilizar](#tecnologias-a-utilizar)
 * [Gráfico de Gantt](#gráfico-de-gantt)
-* [Diagrama de Classes](#diagrama-de-classes)
 * [Documentação REST](#documentação-rest)
+* [Manual de Utilizador](#manual-de-utilizador)
+* [Guia de Dados](#guia-de-dados)
 * [Dicionário de Dados](#dicionário-de-dados)
-* [Modelo Entidade-Relação](#modelo-entidade-relação)
+* [Modelos e Diagramas](#modelos-e-diagramas)
 * [Referências Bibliográficas](#referências-bibliográficas)
 * [License](#license)
+* [Anexos](#anexos)
 
 # Introdução
 De modo a criar uma aplicação divertida e útil pensámos numa aplicação que pudesse vir a ajudar os turistas a conhecer a nossa cidade, Lisboa. A nossa aplicação tem então como público-alvo os turistas, podendo, no entanto, servir também para portugueses à procura de conhecer melhor o seu próprio pais.
@@ -40,6 +42,8 @@ Para podermos construir uma aplicação o mais fidedigna possível fizemos vári
 | ![Crescimento do turismo](images/tourism.png) | 
 |:-:| 
 | *Fig. 1* - Lucro de turismo por ano em milhões de euros, em Portugal |
+
+Queremos então aproveitar esta onda de crescimento do turismo para lançar a aplicação e ajudar todos os interessados a conhecer a nossa cidade.de
 
 # Benchmarking de mercado
 De modo a podermos diferenciar-nos de muitos outros, fizemos pesquisas sobre as aplicações já existentes neste mercado para perceber quais os aspetos que têm de ser melhorados nesta área aplicativa. 
@@ -70,7 +74,6 @@ Sendo este um projeto multidisciplinar, arranjámos maneira de incluir todas as 
   * **Programação Orientada a Objetos** - Vamos utilizar uma backend RESTful API feita numa linguagem maioritariamente orientada a objetos (java), com o objetivo de servir de centro de controlo. Este servidor servirá como intermediário entre a aplicação móvel (frontend) e a base de dados e será também a aplicação que vai receber os pedidos e enviar as respostas adequadas;
   * **Programação de Dispositivos Móveis** - Será feita uma aplicação móvel que funcionará como a frontend do projeto. O utilizador usará esta app para interagir com os recursos disponibilizados pela backend, base de dados e outros serviços. A nossa aplicação terá um GUI através do qual os utilizadores poderão fazer esta interação.
   * **Competências Comunicacionais** - Iremos utilizar as competências aprendidas em aula de modo a melhorarmos as nossas apresentações orais de entrega a entrega;
-  * **Matemática Discreta** - Para manipulação e reconhecimento de imagens usaremos algoritmos e estratégias que se enquadram na cadeira de matemática discreta, como por exemplo `Algoritmo de Dijkstra` para computação de caminhos, `TM_SQDIFF` ou `TM_CCOEFF` para template matching, entre outros.
 
 # Requisitos Técnicos para desenvolvimento do projeto
 Para o desenvolvimento deste projeto, será necessária a aprendizagem e utilização de várias línguagens de programação e outras plataformas:
@@ -99,9 +102,6 @@ Utilizaremos uma base de dados, PostreSQL. Este servidor não terá comunicaçã
 
 ## Backend API
 O servidor backend será feito utilizando Spring Boot numa arquitetura REST. Esta servirá para receber requests da frontend, processá-los e devolver uma resposta. A comunicação com a base de dados e eventualmente com outros recursos internos (ou, possívelmente, externos) será feita pela backend quando necessária. 
-
-## Load balancer
-Os utilizadores (na verdade, a frontend) não comunica diretamente com os worker nodes do nosso cluster. Para garantir uma boa disponibilidade e rapidez geral, o load balancer é responsável por encaminhar os pedidos para os nodes que fazem mais sentido, tendo em conta dados como a proximidade ao utilizador e a carga atual sobre os servidores.  
 
 ## Aplicação Android
 Esta aplicação terá a função de frontend. O seu objetivo será possibilitar uma interação com os utilizadores através da sua interface grafica e a comunicação com a backend, intermediando o utilizador e os recursos internos.
@@ -137,27 +137,25 @@ Fora as tecnologias descritas no enquadramento das Unidades Curriculares, iremos
 
 A calendarização está dividida em três, sendo a primeira parte referente à Base de Dados, a segunda referente à Backend e a última referente à app.
 
-# Diagrama de Classes
-
-| ![Diagrama de Classes](images/DiagramaDeClasses.png) | 
-|:-:| 
-| *Fig. 6* - Diagrama de Classes |
 
 # Documentação REST
 
-Ver a documentação REST [aqui](https://github.com/Meet-Lisbon/documents/blob/main/G01-documentac%CC%A7a%CC%83o-REST.pdf).
+Ver a documentação REST [aqui](https://github.com/Meet-Lisbon/documents/blob/main/G01-documenta%C3%A7%C3%A3o-REST.pdf).
+
+# Manual de Utilizador
+
+Ver o manual de utilizador [aqui]().
+
+# Guia de Dados
+
+Ver o guia de dados [aqui](https://github.com/Meet-Lisbon/documents/blob/main/G01-guia-de-dados.pdf).
 
 # Dicionário de Dados
+Ver o dicionário de dados [aqui](https://github.com/Meet-Lisbon/documents/blob/main/Dicion%C3%A1rioDados-G01.pdf).
 
-| ![Dicionário de Dados](images/DicionárioDeDados.png) | 
-|:-:| 
-| *Fig. 7* - Dicionário de Dados |
+# Modelos e Diagramas
+Para ter acesso ao todos Modelo Entidade-Relação e ao Diagrama de Classes da nossa aplicação, ir aos anexos.
 
-# Modelo Entidade-Relação
-
-| ![Modelo Entidade-Relação](images/modelação.png) | 
-|:-:| 
-| *Fig. 8* - Modelo Entidade-Relação |
 
 # Referências Bibliográficas
 <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
@@ -177,3 +175,11 @@ Ver a documentação REST [aqui](https://github.com/Meet-Lisbon/documents/blob/m
 
 # License
 <a href="https://github.com/Meet-Lisbon/core/blob/main/LICENSE"> GNU General Public License v3.0 </a>
+
+
+## Anexos 
+
+# Modelo Entidade-Relação (MER)
+| ![MER](images/mer-MeetLisbon.png) | 
+
+# Diagrama de Classes
