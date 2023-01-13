@@ -16,7 +16,6 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 * [Descrição genérica da solução a implementar](#descrição-genérica-da-solução-a-implementar)
 * [Requisitos Técnicos para desenvolvimento do projeto](#requisitos-técnicos-para-desenvolvimento-do-projeto)
 * [Arquitetura da Solução](#arquitetura-da-solução)
-* [Modelo de Domínio](#modelo-de-domínio)
 * [Tecnologias a utilizar](#tecnologias-a-utilizar)
 * [Gráfico de Gantt](#gráfico-de-gantt)
 * [Documentação REST](#documentação-rest)
@@ -99,8 +98,7 @@ Para o desenvolvimento deste projeto, será necessária a aprendizagem e utiliza
   * **Linguagem SQL** -> Para uso e configuração da base de dados;
   * Programação móvel;
   * Orquestração e coordenação de containers para criação do cluster;
-  * Automatização de testes e integração/distribuição contínuas;
-  * Funcionamento e programação de algoritmos para análise de imagens -> trabalhar com a biblioteca OpenCV;
+  * Funcionamento e programação de algoritmos para análise de imagens -> trabalhar com Keras e Tensorflow para criação e conversão de modelos de redes neuronais.
 
 # Arquitetura da Solução
 A nossa aplicação, embora pequena, requer uma coordenação entre vários equipamentos e tecnologias, assim como uma infraestrutura sólida e de fácil manutenção. Os diversos componentes a integrar são:  
@@ -108,7 +106,8 @@ A nossa aplicação, embora pequena, requer uma coordenação entre vários equi
   * Backend API  
   * Aplicação Android
 
-A base de dados e backend API têm de garantir uma disponibilidade alta, assim como uma latência baixa, visto que a interação com o utilizador é baseada na sua localização e movimentação em tempo real. Por outro lado, no inicio poderá ser mais vantajoso dar prioridade à simplicidade e organização dado que as necessidades iniciais serão baixas. Para tal, optamos por uma infraestrutura de single cluster com load balancing. A orquestração das diversas componentes da backend api e base de dados será feita pelo Kubernetes, como demonstrado na Fig. 2.  
+A base de dados e backend API têm de garantir uma disponibilidade alta, assim como uma latência baixa, visto que a interação com o utilizador é baseada na sua localização e movimentação em tempo real. Por outro lado, no inicio poderá ser mais vantajoso dar prioridade à simplicidade e organização dado que as necessidades iniciais serão baixas. Para tal, optamos por uma infraestrutura de single cluster. A orquestração das diversas componentes da backend api e base de dados será feita pelo Kubernetes, como demonstrado na Fig. 2.  
+
 | ![Diagrama kubernetes](images/k8s.png) | 
 |:--:| 
 | *Fig. 2* - Diagrama de rede |
@@ -123,19 +122,6 @@ O servidor backend será feito utilizando Spring Boot numa arquitetura REST. Est
 
 ## Aplicação Android
 Esta aplicação terá a função de frontend. O seu objetivo será possibilitar uma interação com os utilizadores através da sua interface grafica e a comunicação com a backend, intermediando o utilizador e os recursos internos.
- 
-## Integração e distribuição
-Para limitar o número de erros humanos é vantajoso automatizar a maior parte dos passos, especialmente aqueles mais extensos e que se repetem. Planeamos então utilizar Github Actions e, possívelmente, algumas plataformas como `Jenkins` para facilitar estas tarefas. Assim, a ideia geral da pipeline para integração e distribuição contínuas está representada na Fig. 3.
- 
-| ![CI/CD Pipeline](images/pipeline.png) | 
-|:-:| 
-| *Fig. 3* - CI/CD pipeline |
-  
-# Modelo de Domínio
-
-| ![Modelo de Domínio](images/uml.png) | 
-|:-:| 
-| *Fig. 4* - Modelo de Domínio |
 
 # Tecnologias a utilizar
 
@@ -145,7 +131,7 @@ Fora as tecnologias descritas no enquadramento das Unidades Curriculares, iremos
   * [OpenCV](https://www.postgresql.org/) - Biblioteca de funções auxiliares a reconhecimento de imagem
   * [Docker](https://www.docker.com/) - Conjunto de ferramentas que possibilitam a virtualização e manutenção de instâncias
   * [Kubernetes](https://kubernetes.io/) - Criação, monitorização, orquestração e scaling do cluster 
-  * [Jenkins](https://www.jenkins.io/) - Servidor de automatização para integração e distribuição contínuas 
+
 
 # Gráfico de Gantt
 
