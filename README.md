@@ -7,6 +7,7 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 <!-- TABLE OF CONTENTS -->
 # Índice
 
+* [Tabela de Tarefas](#tabela-de-tarefas)
 * [Introdução](#introdução)
 * [Objetivos](#objetivos)
 * [Pesquisa](#pesquisa)
@@ -26,6 +27,23 @@ Afonso Goulart (20211056), Maria Martins (20211010) e Mário Nascimento (2021038
 * [Referências Bibliográficas](#referências-bibliográficas)
 * [License](#license)
 * [Anexos](#anexos)
+
+# Tabela de Tarefas 
+|Tarefas	|Afonso	|Maria	|Mário|
+| -------- | ------- | -------- | ------- |
+|BASE DE DADOS	|
+|Estruturar base de dados	|10%|	10%	|80%|
+|Popular a base de dados	|10%	|45%	|45%|
+|Integração com API|	10%	|30%	|60%|
+|APP	|
+|Design interfaces	|10%|	45%	|45%|
+|Integração com mapas	|10%|	10%	|80%|
+|Desenvolvimento app|	10%|	30%	|60%|
+|SERVIDOR	|
+|Endpoints |	10%|	45%	|45%|
+|Email|	10%	|65%	|25%|
+|Integração com APP|	10%	|30%	|60%|
+
 
 # Introdução
 De modo a criar uma aplicação divertida e útil pensámos numa aplicação que pudesse vir a ajudar os turistas a conhecer a nossa cidade, Lisboa. A nossa aplicação tem então como público-alvo os turistas, podendo, no entanto, servir também para portugueses à procura de conhecer melhor o seu próprio pais.
