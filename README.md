@@ -144,7 +144,7 @@ Ver a documentação REST [aqui](https://github.com/Meet-Lisbon/documents/blob/m
 
 # Manual de Utilizador
 
-Ver o manual de utilizador [aqui]().
+Ver o manual de utilizador [aqui](https://github.com/Meet-Lisbon/documents/blob/main/G01-manual-do-utilizador.pdf).
 
 # Guia de Dados
 
