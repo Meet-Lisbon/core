@@ -187,3 +187,4 @@ Para ter acesso ao todos Modelo Entidade-Relação e ao Diagrama de Classes da n
 | ![MER](images/mer-MeetLisbon.png) | 
 
 # Diagrama de Classes
+| ![Diagrama de Classes](images/diagrama_de_classes.png) | 
